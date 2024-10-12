@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+    <main id="main-box">
+        <!------------------------------ header section  --------------------------------->
+        <header>
+           <a href="/index.html"> <img src="https://prescripto.vercel.app/assets/logo-BNCDj_dh.svg" alt="logo"></a>   
+            <nav>
+                <ul>
+                    <li><a href="/index.html" class="active">HOME</a></li>
+                    <li><a href="#All doctor">ALL DOCTORS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href=""><button>Admin Panel</button></a></li>
+                </ul>
+            </nav>
+            <a href="#login"><button class="account" onclick="createAccount()">Create account</button></a>
+        </header>
+         <div class="login-container" id="signin">
+            <div class="login-page">
+                <h2>Create Account</h2>
+                <p>Please sign up to book appointment</p>
+                <div class="input-row">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="name">
+                    <label for="email">Email</label>
+                    <input type="email" class="email">
+                    <label for="password">Password</label>
+                    <input type="password" class="password">
+
+                </div>
+                <button>Create Account</button>
+                <p>Already have an account?<span><a href="">Login here</a></span></p>
+            </div>
+        </div> 
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
